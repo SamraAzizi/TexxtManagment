@@ -28,3 +28,14 @@ Represents a student with an ID, name, and email.
   - `string getEmail() const`: Returns the student's email.
   - `void displayDetails() const`: Displays student details.
 
+### Test Class
+
+Represents a test with an ID, course name, test name, and date/time.
+
+- **Private Members**:
+  - `static int nextId`: Static variable to generate unique IDs.
+  - `int id`: Unique ID for each test.
+  - `string courseName`: Course name for the test.
+  - `string testName`: Name of the test.
+  - `string dateTime`: Date and time of the test.
+

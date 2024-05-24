@@ -45,3 +45,20 @@ Represents a test with an ID, course name, test name, and date/time.
   - `string getCourseName() const`: Returns the course name.
   - `string getTestName() const`: Returns the test name.
   - `string getDateTime() const`: Returns the date and time
+
+
+### Usage
+
+1. Run the compiled executable:
+
+    ```bash
+    ./student_test_management
+    ```
+
+2. Follow the on-screen menu to perform various operations such as adding students, tests, test results, and viewing information.
+
+3. Select option `11` to exit the program.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.

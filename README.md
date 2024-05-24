@@ -19,3 +19,12 @@ Represents a student with an ID, name, and email.
   - `static int nextId`: Static variable to generate unique IDs.
   - `int id`: Unique ID for each student.
   - `string name`: Name of the student.
+  - `string email`: Email of the student.
+
+- **Public Methods**:
+  - `Student(const string &name, const string &email)`: Constructor to initialize a student with a name and email.
+  - `int getId() const`: Returns the student's ID.
+  - `string getName() const`: Returns the student's name.
+  - `string getEmail() const`: Returns the student's email.
+  - `void displayDetails() const`: Displays student details.
+

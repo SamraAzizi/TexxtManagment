@@ -8,3 +8,14 @@ This C++ program is a console application designed to manage students, tests, an
 - **Test Management**: Add, edit, remove, and display test information.
 - **Test Result Management**: Add, edit, remove, and display test results.
 - **Menu-Driven Interface**: A simple text-based menu to navigate through different operations.
+
+## Classes and Structure
+
+### Student Class
+
+Represents a student with an ID, name, and email.
+
+- **Private Members**:
+  - `static int nextId`: Static variable to generate unique IDs.
+  - `int id`: Unique ID for each student.
+  - `string name`: Name of the student.
